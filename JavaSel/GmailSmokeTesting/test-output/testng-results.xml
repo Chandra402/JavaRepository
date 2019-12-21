@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30054" started-at="2019-12-20T07:15:19Z" finished-at="2019-12-20T07:15:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30054" started-at="2019-12-20T07:15:19Z" finished-at="2019-12-20T07:15:49Z">
+      <class name="com.tesco.gmail.smoke.GmailSmoke">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="setUP" is-config="true" duration-ms="4275" started-at="2019-12-20T07:15:19Z" finished-at="2019-12-20T07:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="baseURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="baseURL" duration-ms="4307" started-at="2019-12-20T07:15:23Z" finished-at="2019-12-20T07:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURL -->
+        <test-method status="PASS" signature="loginintoAccount()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="loginintoAccount" duration-ms="8606" started-at="2019-12-20T07:15:28Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.baseURL" finished-at="2019-12-20T07:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoAccount -->
+        <test-method status="PASS" signature="verifyLoginURL()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="verifyLoginURL" duration-ms="2711" started-at="2019-12-20T07:15:36Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.loginintoAccount" finished-at="2019-12-20T07:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginURL -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="logOut" duration-ms="7835" started-at="2019-12-20T07:15:39Z" depends-on-methods="com.tesco.gmail.smoke.GmailSmoke.verifyLoginURL" finished-at="2019-12-20T07:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tesco.gmail.smoke.GmailSmoke@55536d9e]" name="closeBrowser" is-config="true" duration-ms="2103" started-at="2019-12-20T07:15:47Z" finished-at="2019-12-20T07:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tesco.gmail.smoke.GmailSmoke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

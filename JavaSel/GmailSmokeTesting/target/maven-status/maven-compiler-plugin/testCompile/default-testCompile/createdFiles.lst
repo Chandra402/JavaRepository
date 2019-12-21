@@ -1,0 +1,4 @@
+com\tesco\gmail\utility\Utility.class
+com\tesco\gmail\objectreader\ObjectReader.class
+com\tesco\gmail\smoke\GmailSmoke.class
+com\tesco\gmail\datareader\DataReader.class
